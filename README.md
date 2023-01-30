@@ -1,1 +1,1 @@
-# minh.github.io
+Project 2 for CS4300 class
