@@ -1,1 +1,179 @@
+body {
+    margin: 0; 
+    text-align: center;
+}
 
+/* Index page */
+/* top div */
+.top {
+    background-color: rgb(157, 255, 255);
+    height: 600px; 
+    padding: 1%;
+}
+
+/* center div */
+.main {
+    background-color: rgb(111, 253, 255);
+    padding: 1%;
+}
+
+/* bottom div */
+.copyright {
+    background-color: #00a7cd;
+    padding: 1%;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(137, 247, 249);
+    /* position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0; */
+}
+
+/* links changes */
+a:link {
+    color: #ff0000;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(255, 161, 161);
+}
+
+/* headlines and texts: fonts changes */
+h1 {
+    font-family: 'Acme', sans-serif;
+    color: #1d7c8d;
+    font-size: 5em;
+    margin: 10px 0;
+}
+.home, .phone, h2 {
+    font-size: 2em;
+    margin: 10px auto;
+    padding: 1%;
+    font-family: 'Aboreto', cursive;
+}
+.info, h3 {
+    margin: 10px;
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(18, 23, 97);
+    text-align: center;
+}
+.contact { 
+    padding: 1%;
+    border-color: rgb(18, 23, 97);
+    background-color: rgb(157, 255, 255);
+    border-radius: 15%;
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(18, 23, 97); 
+    font-size: large;
+} /* button look*/
+
+/* horizontal rule border changes */
+hr {
+    border: 3px outset #00a7cd;
+    width: 65%;
+    margin: 20px auto;
+}
+
+/* top div images */
+.image { 
+    position: absolute;
+} /* all images */
+.desktop {
+    width: 70%;
+    left: 15%;
+}
+.code {
+    width: 32%;
+    margin: 110px 0 10px 0;
+    left: 33%;
+}
+.drink {
+    right: 0;
+    bottom: 0;
+    width: 15%;
+}
+.book1 {
+    left: 2%;
+    bottom: 8%;
+    width: 20%;
+}.book2 {
+    left: 8%;
+    bottom: 5%;
+    width: 20%;
+}
+.notes {
+    right: 8%;
+    bottom: 0;
+    width: 25%;
+}
+.musicright {
+    right: 8%;
+    top: 8%;
+    width: 20%;
+}
+.musicleft {
+    left: 8%;
+    top: 6%;
+    width: 13%;
+}
+.headshot {
+    width: 15%;
+}
+
+/* center div: column/row layout with images(decor) */
+.row {
+    width: 50%;
+    margin: 20px auto;
+}
+.column {
+    display: inline-block;
+    text-align: left;
+}
+.left {
+    width: 50%;
+    float: left;
+} /* to setup left column */
+.right {
+    width: 50%;
+} /* to setup right column */
+.text { 
+    width: 75%;
+    font-size: larger;
+} /* to hold text column */
+.logo { 
+    width: 25%;
+} /* to hold images column */
+.decor {
+    border-radius: 100%;
+    width: 90%;
+} /* images */
+ul {
+    list-style: none;
+}
+
+/* Contact page */
+.card {
+    padding: 4%;
+    margin: 10px;
+    box-shadow: 10px 0 20px 0 rgba(26, 79, 73, 0.521);
+    transition: 0.4s;
+    width: 50%;
+    background-color: rgb(60, 167, 169);
+}
+.card:hover {
+    box-shadow: 20px 0 40px 0 rgb(18, 23, 97);
+}
+button, form {
+    /* make form center */
+    display: inline-block;
+    border-radius: 100%;
+}
+.box {
+    height: 20px;
+    width: 80%;
+}
+.message {
+    height: 70px;
+    width: 80%;
+}
